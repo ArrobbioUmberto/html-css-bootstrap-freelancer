@@ -16,6 +16,38 @@ header{
 .mc-about{
     background-color: #1abc9c;
 }
+img{
+    width: 200px;
+    height: 200px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+}
+.mc-ul-row{
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.mc-hero-section .star::after,
+.mc-hero-section .star::before{
+    content: "";
+    display: inline-block;
+    width: 10%;
+    background-color: white;
+    height: 3px;
+    margin: 4px;
+}
+.mc-hero-section .mc-line::after,
+.mc-hero-section .mc-line::before{
+    content: '';
+    background-color: white;
+    display: inline-block;
+    width: 10px;
+    height: 2px;
+    margin: 4px;
+}
+/* .mc-hero-section li:last-child{
+    display: none;
+} */
 .mc-copyright{
     background-color: #2c3e50;
 }

@@ -12,6 +12,15 @@ header{
 .mc-about{
     background-color: #1abc9c;
 }
+.mc-copyright{
+    background-color: #2c3e50;
+}
 .container{
     margin: 0 auto;
+}
+.mc-container-sm{
+    max-width: 70%;
+}
+footer{
+    background-color: #3a546d;
 }
